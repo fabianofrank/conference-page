@@ -1,0 +1,19 @@
+@media screen { min-width: 768px;
+  
+}
+
+body {
+  font-family: lato;
+  font-size: 20px;
+  color: #272a31;
+  color: #ec5242;
+  color: #d3d3d3;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
