@@ -1,5 +1,11 @@
-@media screen { min-width: 768px;
-  
+@media (min-width: 768px) {
+  .mobile-only {
+    display: none;
+  }
+}
+
+.desktop-only {
+  display: none;
 }
 
 body {

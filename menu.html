@@ -8,15 +8,15 @@
   <link rel="stylesheet" href="style.css">
   <title>Document</title>
 </head>
+
 <body>
-  <head>
+  <header>
     <nav>
       <div class="menu">
         <img src="images/menu.png" alt="menu">
       </div>
 
-      <!-- Desktop Menu
-      <div class="top-nav">
+      <div class="top-nav desktop-only">
         <ul class="upper-nav">
           <li>
             <img src="images/facebook.png" alt="facebook">
@@ -36,7 +36,7 @@
         </ul>
       </div>
         
-      <div class="bot-nav">
+      <div class="bot-nav desktop-only">
         <div class="logo">
           <img src="images/logo.png" alt="conference-logo">
         </div>
@@ -60,22 +60,23 @@
         </ul>
         
         <button class="nav-btn">CC Campaign</button>
-      </div> -->
+      </div>
     </nav>
-  </head>
-  <main>
+  </header>
 
+  <main>
     <section class="home">
-      <div class="titles">
+      <header class="titles">
         <h2>"Hello! Sharing world"</h2>
         <h1>
           CREATIVE COMMONS
           <br/>
           GLOBAL SUMMIT
-          </br>
+          <br/>
           2015
         </h1>
-      </div>
+      </header>
+
       <div class="card">
         <p>
           A joyful celebration believing in the value of opennes and sharing, creating a positive change with people from over 80 countries is taking place in October, in Korea.
@@ -90,10 +91,13 @@
     </section>
 
     <section class="program">
-      <h2>
-        Main Program
-      </h2>
-      <div class="vector"></div>
+      <header>
+        <h2>
+          Main Program
+        </h2>
+        <div class="vector"></div>  
+      </header>
+      
       <ul class="card">
         <li>
           <img src="images/lecture.png" alt="#">
@@ -131,15 +135,41 @@
           </p>
         </li>
       </ul>
-      <button class="program-btn">Join CC Global Summit 2015</button>
+      
+      <button type="button mobile-only" class="program-btn">Join CC Global Summit 2015</button>
+      <a class="desktop-only" href="#">SEE THE WHOLE PROGRAM</a>
     </section>
 
-    <section class="speakers">
+    <section class="featured">
+      <header>
+        <h2>
+          Featured Speakers
+        </h2>
+        <div class="vector"></div>  
+      </header>
+
+      <div class="speakers">
+        <div class="photos">
+          <img src="images/chess.png" alt="" class="chess">
+          <img src="images/photo.png" alt="" class="photo">
+        </div>
+        <div class="profile">
+          <h3>Name</h3>
+          <p>Text</p>
+          <div class="vector-profile"></div>
+          <p>Paragraph</p>
+        </div>
+      </div>
+
+      <div class="more">
+        <a href="#">MORE</a>
+        <img src="images/arrow.png" alt="more-speakers">
+      </div>
     </section>
   
   </main>
 
-  <footer>
+  <footer class="desktop-only">
     <section class="partners"></section>
     <section class="foot"></section>
   </footer>
