@@ -13,7 +13,35 @@
   <header>
     <nav>
       <div class="menu mobile-only">
-        <img src="images/menu.png" alt="menu">
+        <img id="hide-menu" onclick="toggle()" src="images/menu.png" alt="menu">
+        
+        <div class="d-none" id="toggle-menu">
+          <a onclick="toggle()">
+            <img src="images/close.svg" alt="close-btn">
+          </a>
+          <ul>
+            <li>
+              <a href="about.html">About</a>
+              <img src="images/arrow-left.png" alt="about-page">
+            </li>
+            <li>
+              <a href="#">Porgram</a>
+              <img src="images/arrow-left.png" alt="program-page">
+            </li>
+            <li>
+              <a href="#">Join</a>
+              <img src="images/arrow-left.png" alt="join-page">
+            </li>
+            <li>
+              <a href="#">Sponsor</a>
+              <img src="images/arrow-left.png" alt="sponsor-page">
+            </li>
+            <li>
+              <a href="#">News</a>
+              <img src="images/arrow-left.png" alt="news-page">
+            </li>
+          </ul>
+        </div>
       </div>
 
       <div class="desktop-only">
