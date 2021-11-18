@@ -398,16 +398,12 @@ h5 {
   border: 1px solid #d3d3d3;
   padding: 3% 24%;
   margin: 3%;
+  font-family: lato;
 }
 
 .more img {
   width: 24px;
   height: auto;
-}
-
-.more p {
-  color:#272a31;
-  font: 40px;
 }
 
 /* Past Events - ABOUT */
