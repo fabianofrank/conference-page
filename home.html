@@ -13,11 +13,12 @@
   <header>
     <nav>
       <div class="menu mobile-only">
-        <img id="menu" src="images/menu.png" alt="menu">
+        <img id="hide-menu" onclick="toggle()" src="images/menu.png" alt="menu">
+        
         <div class="d-none" id="toggle-menu">
-          <div class="close">
+          <a onclick="toggle()">
             <img src="images/close.svg" alt="close-btn">
-          </div>
+          </a>
           <ul>
             <li>
               <a href="about.html">About</a>
@@ -165,9 +166,10 @@
     </section>
   </main>
 
-  <footer class="desktop-only">
-    <section class="partners desktop-only">
-      <h4>Partners</h4>
+  <footer>
+    <section class="desktop-only">
+      <div class="partners">
+        <h4>Partners</h4>
       <div class="vector"></div>
 
       <div class="filter-logo">
@@ -176,6 +178,7 @@
         <img src="images/naver.png" alt="naver-logo">
         <img src="images/kakao.png" alt="daumkakao-logo">
         <img src="images/airbnb.png" alt="airbnb-logo">
+      </div>
       </div>
     </section>
     

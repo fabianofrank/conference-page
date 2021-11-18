@@ -3,6 +3,11 @@
   src: url(fonts/Cocogoose\ Pro\ Italic-trial.ttf);
 }
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
 body {
   width: 100vw;
   position: relative;
@@ -58,24 +63,55 @@ h3 {
 h4 {
   color:#d3d3d3;
   font-size: 30px;
-  margin: 3% 0 0 0;
+  padding: 3% 0 0.5% 0;
 }
 
 h5 {
   color: #272a31;
-  font-size: 20px;
-  margin: 3% 0;
+  font-size: 18px;
+  margin: 12% 0 0 0;
 }
 
 /* Navbar */
 .menu {
+  display: flex;
+  flex-direction: column;
   padding: 0 3%;
   margin: 0 3%;
+}
+
+.menu ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu li {
+  display: flex;
+  align-items: center;
+}
+
+.menu a {
+  color: #d3d3d3;
+  font-size: 18px;
+  padding: 6%;
 }
 
 .menu img {
   width: 36px;
   height: auto;
+}
+
+.menu ul img {
+  width: 24px;
+  height: auto;
+}
+
+.d-none {
+  display: none;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(39, 42, 49);
 }
 
 .top-nav {
@@ -86,25 +122,22 @@ h5 {
   position: absolute;
   width: 100vw;
   height: 24px;
-  margin: 0;
-  padding: 0;
-  margin: 0 30% 0 0;
+  padding-right: 10%;
 }
 
 .top-nav li {
   display: flex;
+  padding: 6px;
 }
 
 .top-nav a {
   color: #d3d3d3;
   font-size: 10px;
-  padding: 0 6px;
 }
 
 .top-nav img {
   width: 12px;
   height: 12px;
-  padding: 0 6px;
 }
 
 .nav-bar {
@@ -218,6 +251,9 @@ h5 {
   flex-direction: column;
   justify-content: center;
   text-align: left;
+  background-color: #fff;
+  margin: 0 5% 15% 5%;
+  padding: 3%;
 }
 
 #card-about {
@@ -228,7 +264,7 @@ h5 {
 }
 
 .vector {
-  margin: 3%;
+  margin: 6px;
   width: 48px;
   height: 3px;
   background-color:#ec5242;
@@ -265,7 +301,7 @@ h5 {
   color: #d3d3d3;
   font-size: 12px;
   text-decoration: underline;
-  margin: 3% 0 6% 0;
+  margin: 24px 0 72px 0;
 }
 
 .program p {
@@ -277,8 +313,8 @@ h5 {
   color: #d3d3d3;
   background-color: #ec5242;
   border: 0;
-  padding: 3% 6%;
-  margin: 3%;
+  padding: 6% 12%;
+  margin: 6%;
 }
 
 .card {
@@ -331,6 +367,7 @@ h5 {
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
+  margin: 0 0 3% 0;
 }
 
 .speakers-flex {
@@ -426,7 +463,6 @@ h5 {
   text-align: left;
   align-items: center;
   justify-content: center;
-  padding: 3% 12%;
 }
 
 .foot img {
@@ -466,7 +502,7 @@ h5 {
   }
 
   .home {
-    margin: 0 30%;
+    margin: 0 15%;
   }
 
   .home p {
@@ -481,7 +517,9 @@ h5 {
   }
 
   #card-home {
-    text-align: center;
+    background-color: #fff;
+    margin: 0 30% 15% 0;
+    padding: 3%;
   }
 
   .card {

@@ -61,12 +61,16 @@ Object.keys(users).forEach((index) => {
   </div>`;
 });
 
-const toggleMenu = document.getElementById('toggle-menu');
-const hideMenu = document.getElementById('menu');
 
-function menuToggle () => {
-if (toggleMenu.style.display === block) {
-  toggleMenu.style.display = none;
-  hide
-}
+
+function toggle () {
+  const toggleMenu = document.getElementById('toggle-menu');
+  const hideMenu = document.getElementById('hide-menu');
+  if (toggleMenu.style.display === 'block') {
+    toggleMenu.style.display = 'none';
+    hideMenu.style.display = 'block';
+  } else {
+    toggleMenu.style.display = 'block';
+    hideMenu.style.display = 'none';
+  }
 }
