@@ -4,9 +4,131 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="style.css">
   <title>Document</title>
 </head>
+
 <body>
+  <header>
+    <nav>
+      <div class="menu mobile-only">
+        <img src="images/menu.png" alt="menu">
+      </div>
+
+      <div class="desktop-only">
+        <ul class="top-nav">
+          <li>
+            <img src="images/facebook.png" alt="facebook">
+          </li>
+          <li>
+            <img src="images/twitter.png" alt="twitter">
+          </li>
+          <li>
+            <a href="#">English</a>
+          </li>
+          <li>
+            <a href="#">My Page</a>
+          </li>
+          <li>
+            <a href="#">Logout</a>
+          </li>
+        </ul>
+      </div>
+        
+      <div class="nav-bar desktop-only">
+        <div class="bot-nav">
+          <img src="images/logo.png" alt="conference-logo">
   
+          <ul class="main-nav">
+            <li>
+              <a href="about">About</a>
+            </li>
+            <li>
+              <a href="#">Program</a>
+            </li>
+            <li>
+              <a href="#">Join</a>
+            </li>
+            <li>
+              <a href="#">Sponsor</a>
+            </li>
+            <li>
+              <a href="#">News</a>
+            </li>
+            <button type="button" class="nav-btn">
+              CC Campaign
+            </button>   
+          </ul>
+          
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="home">
+      <header id="titles-about">
+        <h2>"Hello! Sharing world"</h2>
+        <h1>
+          CREATIVE COMMONS
+          <br/>
+          GLOBAL SUMMIT 2015
+        </h1>
+        <div class="vector desktop-only"></div>  
+      </header>
+
+      <div id="card-about">
+        <p class="border-top">The Global Summit brings together the community of experts, academics, and activists who comprise the Creative Commons affiliate network in a different country every two years. This year, we hope to expand our invitation lists including organizations and individuals</p>
+        <p>Please contact us per e-mail for any further questions about CC Global Summit 2015!</p>
+        <a href="#">ccsummit@cckorea.org</a>
+        <h3>
+          Creative Commons
+          <br/>
+          Global Summit 2015 Logo
+        </h3>
+        <div class="vector"></div>  
+        <p>The logo of CC Global Summit 2015 was decided through the logo competition from 8th June to 7th July.</p>
+        <div class="border">
+          <img src="images/about-logo.png" alt="logo">
+        </div>
+      </div>
+    </section>
+
+    <section class="past-events">
+      <h3>See the past CC Global Summits</h3>
+      <div class="vector"></div>  
+
+      <div id="events">
+        <div class="ano">
+          <img src="images/ano1.png" alt="">
+        </div>
+        <div class="ano">
+          <img src="images/ano2.png" alt="">
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <section class="partners">
+      <h4>Partners</h4>
+      <div class="vector"></div>
+
+      <div class="filter-logo">
+        <img id="invert" src="images/mozilla.png" alt="mozilla-logo">
+        <img src="images/google.png" alt="google-logo">
+        <img src="images/naver.png" alt="naver-logo">
+        <img src="images/kakao.png" alt="daumkakao-logo">
+        <img src="images/airbnb.png" alt="airbnb-logo">
+      </div>
+    </section>
+
+    <section class="foot mobile-only">
+      <img src="images/cc.png" alt="creative-commons-logo">
+      <p>2015 Creative Commons Korea. Some Rights Reserved.</p>
+    </section>
+  </footer>
+  <script src="script.js"></script>
 </body>
 </html>
