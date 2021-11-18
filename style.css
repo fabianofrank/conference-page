@@ -13,7 +13,7 @@ body {
   position: relative;
   overflow-x: hidden;
   margin: 0;
-  font-family: cocogoose;
+  font-family: cocogoose, sans-serif;
   font-size: 20px;
   background-image: url(images/main-bg.png);
   background-repeat: no-repeat;
@@ -27,8 +27,8 @@ footer {
   flex-direction: column;
 }
 
-p  {
-  font-family: lato;
+p {
+  font-family: lato, sans-serif;
 }
 
 a {
@@ -39,7 +39,7 @@ li {
   list-style: none;
 }
 
-h1{
+h1 {
   color: #ec5242;
   font-size: 48px;
   font-weight: 700;
@@ -47,7 +47,7 @@ h1{
 }
 
 h2 {
-  font-family: lato;
+  font-family: lato, sans-serif;
   color: #ec5242;
   font-size: 30px;
   font-weight: 300;
@@ -61,7 +61,7 @@ h3 {
 }
 
 h4 {
-  color:#d3d3d3;
+  color: #d3d3d3;
   font-size: 30px;
   padding: 3% 0 0.5% 0;
 }
@@ -101,6 +101,16 @@ h5 {
   height: auto;
 }
 
+.top-nav img {
+  width: 12px;
+  height: 12px;
+}
+
+.bot-nav img {
+  max-width: 96px;
+  height: auto;
+}
+
 .menu ul img {
   width: 24px;
   height: auto;
@@ -135,11 +145,6 @@ h5 {
   font-size: 10px;
 }
 
-.top-nav img {
-  width: 12px;
-  height: 12px;
-}
-
 .nav-bar {
   display: flex;
   margin: 0 15%;
@@ -153,11 +158,6 @@ h5 {
   height: 6px;
   margin: 0;
   padding: 0;
-}
-
-.bot-nav img {
-  max-width: 96px;
-  height: auto;
 }
 
 .main-nav {
