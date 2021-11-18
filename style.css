@@ -142,7 +142,7 @@ h5 {
 
 .nav-bar {
   display: flex;
-  margin: 0 30%;
+  margin: 0 15%;
   padding: 48px 0;
 }
 
@@ -161,11 +161,10 @@ h5 {
 }
 
 .main-nav {
-  max-width: 45vw;
+  max-width: 60vw;
   display: flex;
-  justify-content: flex-end;
   align-items: center;
-  margin: 6%;
+  margin: 6% 12%;
 }
 
 .main-nav li {
