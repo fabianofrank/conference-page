@@ -41,7 +41,7 @@ li {
 
 h1{
   color: #ec5242;
-  font-size: 35px;
+  font-size: 48px;
   font-weight: 700;
   margin: 3% 0;
 }
@@ -220,6 +220,7 @@ h5 {
   border: 1px solid #e4e4e4;
   padding: 6%;
   margin: 3% 0;
+  background-color: #fff;
 }
 
 .border img {
@@ -256,6 +257,7 @@ h5 {
 }
 
 #card-about {
+  margin: 0 30%;
   display: flex;
   flex-direction: column;
   justify-content: center;
