@@ -117,6 +117,34 @@ h5 {
   padding: 0 6px;
 }
 
+.border img {
+  max-width: 100%;
+  height: auto;
+  margin: 12% 0 0 0;
+}
+
+.card img {
+  flex: 0;
+  width: 48px;
+  height: auto;
+  margin: 1.5%;
+}
+
+.more img {
+  width: 24px;
+  height: auto;
+}
+
+.ano img {
+  max-width: 100%;
+  height: auto;
+}
+
+.filter-logo img {
+  max-width: 150px;
+  height: 80px;
+}
+
 .menu ul img {
   width: 24px;
   height: auto;
@@ -219,12 +247,6 @@ h5 {
   background-color: #fff;
 }
 
-.border img {
-  max-width: 100%;
-  height: auto;
-  margin: 12% 0 0 0;
-}
-
 #titles-home {
   text-align: left;
 }
@@ -264,7 +286,7 @@ h5 {
   margin: 6px;
   width: 48px;
   height: 3px;
-  background-color:#ec5242;
+  background-color: #ec5242;
   align-self: center;
 }
 
@@ -291,7 +313,7 @@ h5 {
 }
 
 .program a {
-  color:#ec5242
+  color: #ec5242;
 }
 
 .program #a {
@@ -328,13 +350,6 @@ h5 {
   min-height: 100px;
   width: auto;
   background-color: rgb(211, 211, 211, 0.2);
-}
-
-.card img {
-  flex: 0;
-  width: 48px;
-  height: auto;
-  margin: 1.5%;
 }
 
 .card a {
@@ -394,12 +409,7 @@ h5 {
   border: 1px solid #d3d3d3;
   padding: 3% 24%;
   margin: 3%;
-  font-family: lato;
-}
-
-.more img {
-  width: 24px;
-  height: auto;
+  font-family: lato, sans-serif;
 }
 
 /* Past Events - ABOUT */
@@ -419,13 +429,7 @@ h5 {
   padding: 1.5%;
 }
 
-.ano img {
-  max-width: 100%;
-  height: auto;
-}
-
 /* Partners */
-
 .partners {
   display: flex;
   flex-direction: column;
@@ -434,16 +438,11 @@ h5 {
 }
 
 .filter-logo {
- display: flex;
- flex-wrap: wrap;
- justify-content: center;
- margin: 0 0 1.5% 0;
- filter: grayscale();
-}
-
-.filter-logo img {
-  max-width: 150px;
-  height: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 0 1.5% 0;
+  filter: grayscale();
 }
 
 #invert {
