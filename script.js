@@ -61,9 +61,9 @@ Object.keys(users).forEach((index) => {
   </div>`;
 });
 
+/* eslint-disable no-unused-vars */
 
-
-function toggle () {
+function toggle() {
   const toggleMenu = document.getElementById('toggle-menu');
   const hideMenu = document.getElementById('hide-menu');
   if (toggleMenu.style.display === 'block') {
@@ -74,3 +74,5 @@ function toggle () {
     hideMenu.style.display = 'none';
   }
 }
+
+/* eslint-enable no-unused-vars */
