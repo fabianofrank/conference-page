@@ -163,8 +163,8 @@ h5 {
 .main-nav {
   max-width: 60vw;
   display: flex;
-  align-items: center;
-  margin: 6% 12%;
+  align-items: right;
+  margin: 6% 6%;
 }
 
 .main-nav li {
@@ -192,7 +192,7 @@ h5 {
   color: #ec5242;
   border: 3px solid #ec5242;
   font-size: 12px;
-  padding: 0 6%;
+  padding: 12px 24px;
 }
 
 /* Home */
@@ -405,7 +405,7 @@ h5 {
   height: auto;
 }
 
-.more a {
+.more p {
   color:#272a31;
   font: 40px;
 }
@@ -472,11 +472,13 @@ h5 {
   margin: 3%;
 }
 
-.foot p {
+.foot h6 {
   font-size: 18px;
   min-width: 120px;
   margin: 3%;
   color: #9c9898;
+  font-family: lato;
+  font-weight: 100;
 }
 
 /* Query */
