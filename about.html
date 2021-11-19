@@ -14,7 +14,7 @@
     <nav>
       <div class="menu mobile-only">
         <img id="hide-menu" onclick="toggle()" src="images/menu.png" alt="menu">
-
+        
         <div class="d-none" id="toggle-menu">
           <a onclick="toggle()">
             <img src="images/close.svg" alt="close-btn">
@@ -70,7 +70,7 @@
   
           <ul class="main-nav">
             <li>
-              <a href="about.html">About</a>
+              <a href="about">About</a>
             </li>
             <li>
               <a href="index.html">Home</a>
@@ -87,7 +87,7 @@
           </ul>
 
           <button type="button" class="nav-btn">
-            Premium Flats
+            Premium
           </button>
         </div>
       </div>
@@ -96,79 +96,51 @@
 
   <main>
     <section class="home">
-      <header id="titles-home">
-        <!-- <img src="images/title.png" alt="Creative-Commons-Global-Summit-2015"> -->
+      <header id="titles-about">
         <h2>"Work remotely in a tropical paradise"</h2>
         <h1>
-          BRAZILIAN
+          BRAZILIAN 
           <br/>
           WORKHOUSES
-          <br/>
         </h1>
+        <div class="vector desktop-only"></div>  
       </header>
 
-      <div id="card-home">
-        <p>A joyful celebration believing in the value of opennes and sharing, creating a positive change with people from over 80 countries is taking place in October, in Korea.</p>
-        <h5>2015.10.15(THU) ~ 16(FRI)</h5>
-        <p>@ National Musuem of Koerea, Art Center Nabi and more</p>
+      <div id="card-about">
+        <p class="border-top">The Global Summit brings together the community of experts, academics, and activists who comprise the Creative Commons affiliate network in a different country every two years. This year, we hope to expand our invitation lists including organizations and individuals</p>
+        <p>Please contact us per e-mail for any further questions about CC Global Summit 2015!</p>
+        <a href="#">ccsummit@cckorea.org</a>
+        <h3>
+          Creative Commons
+          <br/>
+          Global Summit 2015 Logo
+        </h3>
+        <div class="vector"></div>  
+        <p>The logo of CC Global Summit 2015 was decided through the logo competition from 8th June to 7th July.</p>
+        <div class="border">
+          <img src="images/about-logo.png" alt="logo">
+        </div>
       </div>
     </section>
 
-    <section class="program">
-      <header>
-        <h3>Main Program</h3>
-        <div class="vector"></div>  
-      </header>
-      
-      <ul class="card">
-        <li>
-          <img src="images/lecture.png" alt="#">
-          <a href="#">Lecture</a>
-          <p>Speakers from various countries about the messages of sharing and opening.</p>
-        </li>
-        <li>
-          <img src="images/exhibition.png" alt="#">
-          <a href="#">CC Exhibition</a>
-          <p>Appreciate various creations applying CC license of artists, organized from Art Center Nabi.</p>
-        </li>
-        <li>
-          <img src="images/forum.png" alt="#">
-          <a href="#">Forum</a>
-          <p>Have the time to share your thoughts and opinions with experts for each topic.</p>
-        </li>
-        <li>
-          <img src="images/workshop.png" alt="#">
-          <a href="#">Workshop</a>
-          <p>Try creating you own work using open source license rather than just watching.</p>
-        </li>
-        <li>
-          <img src="images/ignite.png" alt="#">
-          <a href="#">CC Ignite</a>
-          <p>Get opportunities to network with CC affiliates around the world, also after the summit.</p>
-        </li>
-      </ul>
-      
-      <button type="button" class=" mobile-only">Join CC Global Summit 2015</button>
-      <a id="a" class="desktop-only" href="#">SEE THE WHOLE PROGRAM</a>
-    </section>
-
-    <section class="speakers">
-      <h3>Featured Speakers</h3>
+    <section class="past-events">
+      <h3>See the past CC Global Summits</h3>
       <div class="vector"></div>  
 
-      <div id="featured"></div>
-
-      <button type="button" class="more">
-        MORE
-        <img src="images/arrow.png" alt="more-speakers">
-      </button>
+      <div id="events">
+        <div class="ano">
+          <img src="images/ano1.png" alt="">
+        </div>
+        <div class="ano">
+          <img src="images/ano2.png" alt="">
+        </div>
+      </div>
     </section>
   </main>
 
   <footer>
-    <section class="desktop-only">
-      <div class="partners">
-        <h4>Partners</h4>
+    <section class="partners">
+      <h4>Partners</h4>
       <div class="vector"></div>
 
       <div class="filter-logo">
@@ -178,14 +150,13 @@
         <img src="images/kakao.png" alt="daumkakao-logo">
         <img src="images/airbnb.png" alt="airbnb-logo">
       </div>
-      </div>
     </section>
-    
-    <section class="foot">
+
+    <section class="foot mobile-only">
       <img src="images/cc.png" alt="creative-commons-logo">
       <h6>2015 Creative Commons Korea. Some Rights Reserved.</h6>
     </section>
   </footer>
-  <script src="script.js" ></script>
+  <script src="script.js"></script>
 </body>
 </html>
